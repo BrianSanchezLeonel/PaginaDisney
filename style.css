@@ -225,7 +225,7 @@ header button:hover{
 .seccion4{
     padding-top: 106px;
     height: 800px;
-    background-image: url(Assets/Fondo4.png);
+    background-image: url(Assets/Fondo4.PNG);
     background-size: cover;
     background-position:center;
 }
@@ -466,6 +466,10 @@ ul li {
     .seccion4 {
         padding-top: 0px;
         height: 350px;
+    }
+
+    .repositor{   
+        padding-top: 100px;
     }
 }
 
