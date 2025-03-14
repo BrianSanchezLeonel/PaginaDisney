@@ -1,0 +1,487 @@
+*{
+    box-sizing:border-box;
+    color: aliceblue;
+    margin: 0;
+    font-family: "Sen", sans-serif;
+    font-optical-sizing: 400;
+    font-style: normal;
+}
+
+h1{font-size: 44px;}
+h2{font-size: 28px;}
+h3{font-size: 16px;
+font-weight: 350;
+}
+h4{font-size: 12px;
+font-weight: 350;
+}
+
+header{
+    height: 50px; 
+}
+
+header button{
+    font-size: 21px;
+    padding: 19px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background-color: black;
+    border: solid 1px aliceblue;
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+    margin-right: 30px;
+}
+
+.titulo{
+    margin:18px 0px;
+}
+
+header button:hover{
+    cursor: pointer;
+    transition-duration: 0.5s;
+    color:black;
+    background-color: aliceblue;
+}
+
+.encabezado{
+    display: flex;
+    margin: 0px 60px;
+    height: 600px;
+}
+
+.sesion{
+    margin-top: 40px;
+}
+
+.sesion img{
+    margin: auto;
+    margin-left: 0;
+    height: 110px;
+    width: 200px;
+}
+
+.botones{
+    display: flex;
+    margin-bottom: 45px;
+}
+
+.boton{
+    margin-top: 20px;
+    background-color: #00d0ff;
+    color: black;
+    font-size: 22px;
+    border-radius: 5px;
+    border: none;
+    padding: 16px 38px;
+    margin-bottom: 20px;
+}
+
+.boton:hover{
+    cursor: pointer;
+    transition-duration: 0.4s;
+    color: black;
+    background-color: rgb(0, 162, 255);
+}
+
+.boton1{
+    margin-right: 32px;
+    width: 300px;
+}
+
+.boton2{
+    width: 299px;
+}
+
+.fondo{
+    padding-top: 13px;
+    background-image: url(Assets/Fondo.png);
+    background-size: cover;
+    background-position:center;
+}
+
+.planes{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.seccion1{
+    padding-top: 120px;
+    background-image: url(Assets/Fondo2.jpeg);
+    background-size: cover;
+    background-position:center;
+    height: 650px;
+}
+
+.seccion1 img{
+    display: none;
+}
+
+.info1{
+    margin-left: 60px;
+    width: 500px;
+}
+
+.info1 h2{
+    margin-bottom:20px;
+}
+
+.seccion2{
+    background-color: rgb(5, 7, 20);
+    height: 1200px;
+    padding-top: 27px;
+}
+
+.info2{
+    text-align: center;
+}
+
+.info2 h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tabla1{
+    margin-left: 160px;
+    margin-top: 80px;
+    margin-right: 160px;
+}
+
+.tabla1 tr{
+    height: 130px;
+}
+
+.tabla1 tr th{
+    border-top: solid 2px gray;
+    border-collapse: collapse;
+}
+
+.columna1{
+    text-align: justify;
+    width: 400px;
+}
+
+.columna2{
+    width: 300;
+}
+
+.boton3{
+    background-color: rgb(19, 104, 120);
+    border: none;
+    padding: 22px 85px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.columna2 button:hover{
+    cursor: pointer;
+    transition-duration: 0.4s;
+    background-color:rgb(14, 80, 94) ;
+}
+
+.columna3{
+    width: auto;
+    background-color: rgb(29, 31, 43);
+}
+
+.columna3 button{
+    background-color:rgb(2, 214, 231) ;
+    color: black;
+}
+
+.columna3 button:hover{
+    cursor: pointer;
+    transition-duration: 0.4s;
+    background-color:rgb(10, 169, 180) ;
+}
+
+.info3{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.seccion3{
+    padding-top: 120px;
+    height: 650px;
+    background-image: url(Assets/Fondo3.jpeg);
+    background-size: cover;
+    background-position:center;
+}
+
+.seccion3 img{
+    display: none;
+}
+
+.info4{
+    margin-left: 60px;
+    width: 500px;
+}
+
+.info4 h1{
+    margin-bottom: 15px;
+}
+
+.seccion4{
+    padding-top: 106px;
+    height: 800px;
+    background-image: url(Assets/Fondo4.png);
+    background-size: cover;
+    background-position:center;
+}
+
+.info5{
+    text-align: center;
+}
+
+.seccion5{
+    height: 615px;
+    background-color: rgb(5, 7, 20);
+}
+
+.repositor{
+    padding-top: 200px;
+}
+
+.repositor h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.faq-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+}
+
+.faq-item {
+    margin-bottom: 10px;
+    overflow: hidden;
+    width: auto;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+.faq-question {
+    background-color: rgb(19, 21, 29);
+    color: white;
+    border: none;
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-question:hover {
+    cursor: pointer;
+}
+
+.faq-question .icon {
+    font-size: 18px;
+}
+
+.faq-answer {
+    background-color: rgb(19, 21, 29);
+    padding: 15px;
+    font-size: 16px;
+    display: none;
+}
+
+.faq-answer p, .faq-answer ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+.faq-question.active {
+    
+    background-color: rgb(19, 21, 29);
+}
+
+.faq-question.active .icon {
+    content: '−';
+}
+
+.seccion6{
+    background-color: rgb(14, 11, 20);
+    height: 680px;
+}
+
+.logo{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.info6{
+    text-align: center;
+}
+
+.tabla2{
+    text-align: left;
+    margin: auto;
+    padding-top: 70px;
+    height: 476px;
+}
+
+.tabla2 tr th{
+    height: auto;
+    width: auto;
+}
+
+@media (max-width:1000px){
+    .encabezado{
+        height: 500px;
+    }
+
+    .seccion1{
+        height: 550px;
+    }
+
+    .seccion3{
+        height: 550px;
+    }
+}
+
+@media (max-width:950px){
+    .seccion1{
+        height: 500px;
+        background-image: none;
+        background-color: rgb(5, 7, 20);
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    .info1 {
+        margin-left: 0px;
+        width: unset;
+        margin-bottom: 20px;
+        padding-top: 50px;
+    }
+
+    .seccion1 img {
+        display: block;
+        width: 500px;
+        display: flex;
+        margin: auto;
+    }
+
+    .seccion3{
+        height: 500px;
+        background-image: none;
+        background-color: rgb(5, 7, 20);
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    .info4 {
+        margin-left: 0px;
+        width: unset;
+        margin-bottom: 20px;
+    }
+
+    .seccion3 img {
+        display: block;
+        width: 500px;
+        display: flex;
+        margin: auto;
+    }
+
+    .seccion4{
+        padding-top: 25px;
+        height: 500px;
+    }
+
+    .seccion5{
+        height: 650px;
+    }
+
+    .repositor {
+        padding-top: 100px;
+    }
+
+    .boton3{
+        background-color: rgb(19, 104, 120);
+        border: none;
+        padding: 13%;
+        font-size: 15px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+
+    .tabla1{
+        margin-left: 20px;
+        margin-top: 80px;
+        margin-right: 20px;
+    }
+
+    .columna1{
+        text-align: justify;
+        width: auto;
+    }
+
+    .botones{
+        display: block;
+    }
+
+    .encabezado{
+        height: 650px;
+    }
+}
+
+@media (max-width:800px){
+    .fondo{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Assets/Fondo-B.png);
+    }
+}
+
+@media (max-width:650px){
+    .faq-item{
+        margin: 10px 50px;
+    }
+
+    .seccion1 img{
+        width: 450px;
+    }
+
+    .seccion3 img{
+        width: 450px;
+    }
+
+    .seccion4 {
+        padding-top: 0px;
+        height: 350px;
+    }
+}
+
+@media (max-width:600px){
+    h1{font-size: 41px;}
+    h2{font-size: 25px;}
+    h3{font-size: 13px;
+        font-weight: 350;
+    }
+    h4{font-size: 9px;
+    font-weight: 350;
+    }
+
+    .info1{
+        margin-left: 10px;
+        margin-right: 10px;
+        width: auto;
+    }
+}
