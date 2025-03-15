@@ -489,3 +489,20 @@ ul li {
         width: auto;
     }
 }
+
+@media (max-width:600px){
+    .seccion1 img, .seccion3 img {
+        width: 310px;
+    }  
+}
+
+@media (max-width:420px){
+    .boton1, .boton2 {
+        margin-right: 32px;
+        width: 230px;
+    }
+
+    .encabezado {
+        height: 820px;
+    }
+}
